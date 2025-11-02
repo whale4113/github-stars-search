@@ -1,0 +1,11 @@
+[project]
+name = "github-stars-search"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.12.0",
+    "numpy>=2.3.4",
+    "sentence-transformers>=5.1.2",
+]
